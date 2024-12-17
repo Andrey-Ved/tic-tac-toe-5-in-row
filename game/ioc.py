@@ -82,7 +82,7 @@ class IOCContainer(IOCContainerInterface):
 
     def get_game_round_manager(
             self,
-            ioc_container: IOCContainerInterface,  # noqa
+            ioc_container: IOCContainerInterface,
             player1_cell_value: CellValue,
             player2_cell_value: CellValue,
     ) -> RoundManagerInterface:
