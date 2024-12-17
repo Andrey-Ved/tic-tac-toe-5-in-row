@@ -26,7 +26,7 @@ from game.core.schemas import (
 )
 
 
-class IOCContainer:
+class IOCContainer(IOCContainerInterface):
     def __init__(
             self,
             ai_conf: AISettings,
