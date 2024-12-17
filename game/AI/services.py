@@ -128,7 +128,7 @@ class AI(AIInterface):
 
     def get_move_variant(
             self,
-    ):
+    ) -> CellPosition:
         possibles_move = self._get_possibles_move()
 
         if not possibles_move:
